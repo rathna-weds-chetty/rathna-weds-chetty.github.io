@@ -3,9 +3,14 @@
       $('.sakura-falling').sakura();
 })(jQuery);
 
-$(document).on('click', function(){
-    document.getElementById("my_audio").play();
+document.getElementById("my_audio").play();
+
+document.addEventListener('click', function() {
+    var audio = document.getElementById("my_audio");
+    audio.muted = !audio.paused && (audio.muted ? false : true);
+    audio.play();
 });
+
 
 // being a bit cool :p  
 var styles = [

@@ -440,9 +440,6 @@ img {
 	/* min-height:100%; */
 }
 
-
-/** **/
-
 * {
 	/* margin: 0;
     padding: 0; */
@@ -533,7 +530,7 @@ body {
 .footer {
 	color: #564861;
 	text-align: center;
-	font-size: 16px;
+	font-size: 24px;
 	margin: 24px;
 }
 
